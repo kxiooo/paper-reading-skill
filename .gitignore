@@ -1,0 +1,43 @@
+# ===== 个人内容：默认不入库 =====
+# 论文 PDF（版权 + 体积）
+**/*.pdf
+
+# 预处理产物（可由 PDF 重新生成）
+_staging/parsed/
+
+# 论文笔记
+_staging/notes/*
+!_staging/notes/.gitkeep
+_foundation/notes/*
+!_foundation/notes/.gitkeep
+
+# 已归档 PDF
+_staging/archived/*
+!_staging/archived/.gitkeep
+_foundation/archived/*
+!_foundation/archived/.gitkeep
+
+# 个人思路笔记
+论文阅读+思路拓展/*
+!论文阅读+思路拓展/.gitkeep
+
+# 每日推送（临时内容，不参与图谱）
+每日论文推送/*
+!每日论文推送/.gitkeep
+
+# ===== 环境 / 缓存 =====
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+
+# Obsidian / Claude / 插件本地配置
+.obsidian/
+.smart-env/
+.claudian/
+.upload/
+
+# 临时文件
+*.tmp
+*.bak
